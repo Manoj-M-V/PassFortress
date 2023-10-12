@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin: 0 15px;
+  cursor: pointer;
+  margin: 0 20px;
+  color: white;
+}
+
+li:hover {
+  color: gray;
+}
+table,
+tr,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px 13px;
+}
+
+h1,
+h2,
+h3 {
+  padding: 20px 0;
+}
+
+img {
+  height: 13px;
+  cursor: pointer;
+  position: relative;
+  margin: 0 0 3px 5px;
+}
+
+.container {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0 25px;
+  color: white;
+}
+
+.btn {
+  margin: 25px 0;
+  padding: 10px 20px;
+  background-color: black;
+  color: beige;
+  border: 2px solid gray;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.btnsm {
+  padding: 10px 20px;
+  background-color: black;
+  color: beige;
+  border: 2px solid gray;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+#alert {
+  display: none;
+}
